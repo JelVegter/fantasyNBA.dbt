@@ -47,3 +47,5 @@ models:
             description: "the URL containing player stats of the game"
             tests:
                 - not_null
+    - name: player_stats
+      description: "Contains stats per player per game"

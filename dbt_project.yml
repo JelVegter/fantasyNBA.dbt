@@ -36,3 +36,5 @@ models:
     # Applies to all files under models/example/
     games:
       materialized: table
+    player_stats:
+      materialized: table
