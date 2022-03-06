@@ -3593,3 +3593,431 @@ select
 2022-03-06 20:34:05.637605 (Thread-375): handling status request
 2022-03-06 20:34:05.637999 (Thread-375): 20:34:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980a8fa0>]}
 2022-03-06 20:34:05.638475 (Thread-375): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:34:07.445035 (Thread-376): 20:34:07  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 20:34:07.445222 (Thread-376): 20:34:07  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 20:34:07.445577 (Thread-376): 20:34:07  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.fantasy_nba.player_stats
+- models.fantasy_nba.games
+
+2022-03-06 20:34:07.450529 (Thread-376): 20:34:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f9804f670>]}
+2022-03-06 20:34:07.938652 (Thread-377): handling status request
+2022-03-06 20:34:07.938985 (Thread-377): 20:34:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980ab160>]}
+2022-03-06 20:34:07.939456 (Thread-377): sending response (<Response 1715 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:34:07.946171 (Thread-378): handling status request
+2022-03-06 20:34:07.946423 (Thread-378): 20:34:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980abb20>]}
+2022-03-06 20:34:07.946835 (Thread-378): sending response (<Response 1715 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:52.704041 (Thread-379): handling status request
+2022-03-06 20:36:52.704380 (Thread-379): 20:36:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f98133250>]}
+2022-03-06 20:36:52.704938 (Thread-379): sending response (<Response 1715 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:52.736736 (Thread-380): handling status request
+2022-03-06 20:36:52.737043 (Thread-380): 20:36:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f98133b50>]}
+2022-03-06 20:36:52.737481 (Thread-380): sending response (<Response 1715 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:52.747390 (Thread-381): handling ps request
+2022-03-06 20:36:52.747615 (Thread-381): 20:36:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f981338e0>]}
+2022-03-06 20:36:52.749132 (Thread-381): sending response (<Response 12621 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:52.827892 (Thread-382): handling status request
+2022-03-06 20:36:52.828235 (Thread-382): 20:36:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f9803c310>]}
+2022-03-06 20:36:52.851156 (Thread-382): sending response (<Response 1715 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:53.318374 (Thread-383): handling poll request
+2022-03-06 20:36:53.318714 (Thread-383): 20:36:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f9803c550>]}
+2022-03-06 20:36:53.320151 (Thread-383): sending response (<Response 37147 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:53.849435 (Thread-384): handling status request
+2022-03-06 20:36:53.849775 (Thread-384): 20:36:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f9803cb80>]}
+2022-03-06 20:36:53.850259 (Thread-384): sending response (<Response 1715 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:54.011671 (Thread-385): handling status request
+2022-03-06 20:36:54.012008 (Thread-385): 20:36:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f9803ca60>]}
+2022-03-06 20:36:54.012476 (Thread-385): sending response (<Response 1715 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:54.167049 (Thread-386): handling status request
+2022-03-06 20:36:54.167412 (Thread-386): 20:36:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f9803cdc0>]}
+2022-03-06 20:36:54.167911 (Thread-386): sending response (<Response 1715 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:59.035199 (Thread-387): 20:36:59  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-06 20:36:59.035640 (Thread-387): 20:36:59  Partial parsing: updated file: fantasy_nba://models/marts/player_stats.sql
+2022-03-06 20:36:59.039768 (Thread-387): 20:36:59  1699: static parser successfully parsed marts/player_stats.sql
+2022-03-06 20:36:59.078506 (Thread-387): 20:36:59  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.fantasy_nba.player_stats
+- models.fantasy_nba.games
+
+2022-03-06 20:36:59.083865 (Thread-387): 20:36:59  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76ee83a0>]}
+2022-03-06 20:36:59.515448 (Thread-388): handling status request
+2022-03-06 20:36:59.515848 (Thread-388): 20:36:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980b7820>]}
+2022-03-06 20:36:59.516362 (Thread-388): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:36:59.533142 (Thread-389): handling status request
+2022-03-06 20:36:59.533404 (Thread-389): 20:36:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980acf10>]}
+2022-03-06 20:36:59.533846 (Thread-389): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:01.226014 (Thread-390): handling status request
+2022-03-06 20:37:01.226367 (Thread-390): 20:37:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980aca90>]}
+2022-03-06 20:37:01.226859 (Thread-390): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:01.453422 (Thread-391): handling status request
+2022-03-06 20:37:01.453750 (Thread-391): 20:37:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76fb31f0>]}
+2022-03-06 20:37:01.454224 (Thread-391): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:01.461987 (Thread-392): handling cli_args request
+2022-03-06 20:37:01.462223 (Thread-392): 20:37:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76fb3070>]}
+2022-03-06 20:37:03.694790 (Thread-392): sending response (<Response 138 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:03.766330 (MainThread): 20:37:03  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 20:37:03.766797 (MainThread): 20:37:03  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 20:37:03.767414 (MainThread): 20:37:03  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.fantasy_nba.games
+- models.fantasy_nba.player_stats
+
+2022-03-06 20:37:03.773147 (MainThread): 20:37:03  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b913398c-6765-4df6-8785-98ab65361f8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f94985e8370>]}
+2022-03-06 20:37:03.801523 (MainThread): 20:37:03  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b913398c-6765-4df6-8785-98ab65361f8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9498645100>]}
+2022-03-06 20:37:03.801831 (MainThread): 20:37:03  Found 2 models, 11 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-03-06 20:37:03.803265 (MainThread): 20:37:03  
+2022-03-06 20:37:03.803584 (MainThread): 20:37:03  Acquiring new snowflake connection "master"
+2022-03-06 20:37:03.804500 (ThreadPoolExecutor-0_0): 20:37:03  Acquiring new snowflake connection "list_NBA"
+2022-03-06 20:37:03.817182 (ThreadPoolExecutor-0_0): 20:37:03  Using snowflake connection "list_NBA"
+2022-03-06 20:37:03.817298 (ThreadPoolExecutor-0_0): 20:37:03  On list_NBA: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "connection_name": "list_NBA"} */
+
+    show terse schemas in database NBA
+    limit 10000
+2022-03-06 20:37:03.817385 (ThreadPoolExecutor-0_0): 20:37:03  Opening a new connection, currently in state init
+2022-03-06 20:37:03.923233 (Thread-393): handling poll request
+2022-03-06 20:37:03.923678 (Thread-393): 20:37:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980ac430>]}
+2022-03-06 20:37:03.924647 (Thread-393): sending response (<Response 4584 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:04.793348 (ThreadPoolExecutor-0_0): 20:37:04  SQL status: SUCCESS 4 in 0.98 seconds
+2022-03-06 20:37:04.795318 (ThreadPoolExecutor-0_0): 20:37:04  On list_NBA: Close
+2022-03-06 20:37:05.037373 (ThreadPoolExecutor-2_0): 20:37:05  Acquiring new snowflake connection "list_NBA_dbt_jvegter"
+2022-03-06 20:37:05.044614 (ThreadPoolExecutor-2_0): 20:37:05  Using snowflake connection "list_NBA_dbt_jvegter"
+2022-03-06 20:37:05.044756 (ThreadPoolExecutor-2_0): 20:37:05  On list_NBA_dbt_jvegter: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "connection_name": "list_NBA_dbt_jvegter"} */
+
+    show terse objects in NBA.dbt_jvegter
+2022-03-06 20:37:05.044877 (ThreadPoolExecutor-2_0): 20:37:05  Opening a new connection, currently in state closed
+2022-03-06 20:37:05.210457 (Thread-394): handling poll request
+2022-03-06 20:37:05.210801 (Thread-394): 20:37:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f98059bb0>]}
+2022-03-06 20:37:05.211376 (Thread-394): sending response (<Response 2269 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:05.920352 (ThreadPoolExecutor-2_0): 20:37:05  SQL status: SUCCESS 4 in 0.88 seconds
+2022-03-06 20:37:05.921904 (ThreadPoolExecutor-2_0): 20:37:05  On list_NBA_dbt_jvegter: Close
+2022-03-06 20:37:06.142568 (MainThread): 20:37:06  Concurrency: 4 threads (target='default')
+2022-03-06 20:37:06.142750 (MainThread): 20:37:06  
+2022-03-06 20:37:06.145550 (Thread-1): 20:37:06  Began running node model.fantasy_nba.games
+2022-03-06 20:37:06.145903 (Thread-1): 20:37:06  1 of 2 START table model dbt_jvegter.games...................................... [RUN]
+2022-03-06 20:37:06.146205 (Thread-1): 20:37:06  Acquiring new snowflake connection "model.fantasy_nba.games"
+2022-03-06 20:37:06.146318 (Thread-1): 20:37:06  Began compiling node model.fantasy_nba.games
+2022-03-06 20:37:06.146444 (Thread-1): 20:37:06  Compiling model.fantasy_nba.games
+2022-03-06 20:37:06.147366 (Thread-2): 20:37:06  Began running node model.fantasy_nba.player_stats
+2022-03-06 20:37:06.147622 (Thread-2): 20:37:06  2 of 2 START table model dbt_jvegter.player_stats............................... [RUN]
+2022-03-06 20:37:06.147902 (Thread-2): 20:37:06  Acquiring new snowflake connection "model.fantasy_nba.player_stats"
+2022-03-06 20:37:06.147991 (Thread-2): 20:37:06  Began compiling node model.fantasy_nba.player_stats
+2022-03-06 20:37:06.148082 (Thread-2): 20:37:06  Compiling model.fantasy_nba.player_stats
+2022-03-06 20:37:06.150467 (Thread-2): 20:37:06  Writing injected SQL for node "model.fantasy_nba.player_stats"
+2022-03-06 20:37:06.153212 (Thread-1): 20:37:06  Writing injected SQL for node "model.fantasy_nba.games"
+2022-03-06 20:37:06.162079 (Thread-2): 20:37:06  finished collecting timing info
+2022-03-06 20:37:06.162238 (Thread-2): 20:37:06  Began executing node model.fantasy_nba.player_stats
+2022-03-06 20:37:06.167467 (Thread-1): 20:37:06  finished collecting timing info
+2022-03-06 20:37:06.167601 (Thread-1): 20:37:06  Began executing node model.fantasy_nba.games
+2022-03-06 20:37:06.201412 (Thread-2): 20:37:06  Writing runtime SQL for node "model.fantasy_nba.player_stats"
+2022-03-06 20:37:06.205798 (Thread-1): 20:37:06  Writing runtime SQL for node "model.fantasy_nba.games"
+2022-03-06 20:37:06.218530 (Thread-2): 20:37:06  Using snowflake connection "model.fantasy_nba.player_stats"
+2022-03-06 20:37:06.218677 (Thread-2): 20:37:06  On model.fantasy_nba.player_stats: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "model.fantasy_nba.player_stats"} */
+
+
+      create or replace transient table NBA.dbt_jvegter.player_stats  as
+      (
+
+with player_stats as (
+
+select  "VALUE":c1::STRING AS player
+        ,"VALUE":c2::STRING AS mp
+        ,"VALUE":c3::INTEGER AS fgm
+        ,"VALUE":c4::INTEGER AS fga
+        ,"VALUE":c5::FLOAT AS "FG%"
+        ,"VALUE":c6::INTEGER AS "3PTM"
+        ,"VALUE":c7::INTEGER AS "3PA"
+        ,"VALUE":c8::FLOAT AS "3P%"
+        ,"VALUE":c9::INTEGER AS ftm
+        ,"VALUE":c10::INTEGER AS fta
+        ,"VALUE":c11::FLOAT AS "FT%"
+        ,"VALUE":c12::INTEGER AS orb
+        ,"VALUE":c13::INTEGER AS drb
+        ,"VALUE":c14::INTEGER AS reb
+        ,"VALUE":c15::INTEGER AS ast
+        ,"VALUE":c16::INTEGER AS stl
+        ,"VALUE":c17::INTEGER AS blk
+        ,"VALUE":c18::INTEGER AS "TO"
+        ,"VALUE":c19::INTEGER AS pf
+        ,"VALUE":c20::INTEGER AS pts
+        ,"VALUE":c21::INTEGER AS plus_minus
+        ,"VALUE":c22::STRING AS team
+        ,"VALUE":c23::STRING AS opponent
+        ,"VALUE":c24::STRING AS game_location
+        ,"VALUE":c25::STRING AS date
+from src_playerstats
+where mp != 'Did Not Play'
+
+)
+
+select  ROW_NUMBER() over (ORDER BY date, player) as id
+        ,player, date
+        ,SPLIT_PART(mp, ':', 0) AS mp
+        ,fgm, fga, "FG%", "3PTM", "3PA", "3P%", ftm
+        ,fta, "FT%", orb, drb, reb, ast, stl, blk, "TO"
+        ,pf, pts, plus_minus, team, opponent,game_location 
+        from player_stats
+      );
+2022-03-06 20:37:06.218771 (Thread-2): 20:37:06  Opening a new connection, currently in state init
+2022-03-06 20:37:06.220427 (Thread-1): 20:37:06  Using snowflake connection "model.fantasy_nba.games"
+2022-03-06 20:37:06.220538 (Thread-1): 20:37:06  On model.fantasy_nba.games: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "model.fantasy_nba.games"} */
+
+
+      create or replace transient table NBA.dbt_jvegter.games  as
+      (
+
+with playedgames as (
+
+    select  "VALUE":c1::DATE AS date
+            ,"VALUE":c3::STRING AS visitor
+            ,"VALUE":c4::INTEGER AS points_visitor
+            ,"VALUE":c5::STRING AS home
+            ,"VALUE":c6::INTEGER AS points_home
+            ,"VALUE":c11::STRING AS abbr_home
+            ,"VALUE":c12::STRING AS abbr_visitor
+            ,"VALUE":c13::STRING AS date_str
+            ,"VALUE":c14::STRING AS stats_url
+    from src_playedgames
+
+)
+
+select 
+    ROW_NUMBER() over (ORDER BY date, visitor, home) as ID
+    , * 
+    from playedgames
+      );
+2022-03-06 20:37:06.220619 (Thread-1): 20:37:06  Opening a new connection, currently in state closed
+2022-03-06 20:37:06.436935 (Thread-395): handling poll request
+2022-03-06 20:37:06.437277 (Thread-395): 20:37:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f9804fbe0>]}
+2022-03-06 20:37:06.438154 (Thread-395): sending response (<Response 12920 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:07.661506 (Thread-396): handling poll request
+2022-03-06 20:37:07.661848 (Thread-396): 20:37:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980b89d0>]}
+2022-03-06 20:37:07.662328 (Thread-396): sending response (<Response 286 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:07.990007 (Thread-1): 20:37:07  SQL status: SUCCESS 1 in 1.77 seconds
+2022-03-06 20:37:07.999607 (Thread-1): 20:37:07  finished collecting timing info
+2022-03-06 20:37:07.999781 (Thread-1): 20:37:07  On model.fantasy_nba.games: Close
+2022-03-06 20:37:08.233548 (Thread-1): 20:37:08  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b913398c-6765-4df6-8785-98ab65361f8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f94985bd2b0>]}
+2022-03-06 20:37:08.234027 (Thread-1): 20:37:08  1 of 2 OK created table model dbt_jvegter.games................................. [SUCCESS 1 in 2.09s]
+2022-03-06 20:37:08.234165 (Thread-1): 20:37:08  Finished running node model.fantasy_nba.games
+2022-03-06 20:37:08.357745 (Thread-2): 20:37:08  SQL status: SUCCESS 1 in 2.14 seconds
+2022-03-06 20:37:08.359183 (Thread-2): 20:37:08  finished collecting timing info
+2022-03-06 20:37:08.359352 (Thread-2): 20:37:08  On model.fantasy_nba.player_stats: Close
+2022-03-06 20:37:08.601380 (Thread-2): 20:37:08  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b913398c-6765-4df6-8785-98ab65361f8e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9492f8dd30>]}
+2022-03-06 20:37:08.602147 (Thread-2): 20:37:08  2 of 2 OK created table model dbt_jvegter.player_stats.......................... [SUCCESS 1 in 2.45s]
+2022-03-06 20:37:08.602354 (Thread-2): 20:37:08  Finished running node model.fantasy_nba.player_stats
+2022-03-06 20:37:08.603954 (MainThread): 20:37:08  Acquiring new snowflake connection "master"
+2022-03-06 20:37:08.604293 (MainThread): 20:37:08  
+2022-03-06 20:37:08.604396 (MainThread): 20:37:08  Finished running 2 table models in 4.80s.
+2022-03-06 20:37:08.604484 (MainThread): 20:37:08  Connection 'master' was properly closed.
+2022-03-06 20:37:08.604552 (MainThread): 20:37:08  Connection 'model.fantasy_nba.games' was properly closed.
+2022-03-06 20:37:08.604619 (MainThread): 20:37:08  Connection 'model.fantasy_nba.player_stats' was properly closed.
+2022-03-06 20:37:08.648207 (MainThread): 20:37:08  
+2022-03-06 20:37:08.648403 (MainThread): 20:37:08  Completed successfully
+2022-03-06 20:37:08.648505 (MainThread): 20:37:08  
+2022-03-06 20:37:08.648602 (MainThread): 20:37:08  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+2022-03-06 20:37:08.889633 (Thread-397): handling poll request
+2022-03-06 20:37:08.889965 (Thread-397): 20:37:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76ee8e50>]}
+2022-03-06 20:37:08.891449 (Thread-397): sending response (<Response 18245 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:09.391835 (Thread-398): handling status request
+2022-03-06 20:37:09.392177 (Thread-398): 20:37:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f980ac1c0>]}
+2022-03-06 20:37:09.392710 (Thread-398): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:37:09.414602 (Thread-399): handling status request
+2022-03-06 20:37:09.414896 (Thread-399): 20:37:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76f4c700>]}
+2022-03-06 20:37:09.415348 (Thread-399): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:27.164316 (Thread-400): 20:40:27  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-06 20:40:27.165647 (Thread-400): 20:40:27  Partial parsing: updated file: fantasy_nba://models/marts/player_stats.sql
+2022-03-06 20:40:27.169731 (Thread-400): 20:40:27  1699: static parser successfully parsed marts/player_stats.sql
+2022-03-06 20:40:27.206217 (Thread-400): 20:40:27  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.fantasy_nba.player_stats
+- models.fantasy_nba.games
+
+2022-03-06 20:40:27.212481 (Thread-400): 20:40:27  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76e943a0>]}
+2022-03-06 20:40:27.627095 (Thread-401): handling status request
+2022-03-06 20:40:27.627453 (Thread-401): 20:40:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76f8eb50>]}
+2022-03-06 20:40:27.627966 (Thread-401): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:27.671229 (Thread-402): handling status request
+2022-03-06 20:40:27.671572 (Thread-402): 20:40:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76f8ea00>]}
+2022-03-06 20:40:27.672053 (Thread-402): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:28.785894 (Thread-403): handling status request
+2022-03-06 20:40:28.786250 (Thread-403): 20:40:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76f8e040>]}
+2022-03-06 20:40:28.786755 (Thread-403): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:29.005163 (Thread-404): handling status request
+2022-03-06 20:40:29.005512 (Thread-404): 20:40:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76ee81f0>]}
+2022-03-06 20:40:29.006013 (Thread-404): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:29.012605 (Thread-405): handling cli_args request
+2022-03-06 20:40:29.012895 (Thread-405): 20:40:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76ee4940>]}
+2022-03-06 20:40:31.223441 (Thread-405): sending response (<Response 138 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:31.291338 (MainThread): 20:40:31  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-06 20:40:31.291779 (MainThread): 20:40:31  Partial parsing enabled, no changes found, skipping parsing
+2022-03-06 20:40:31.292397 (MainThread): 20:40:31  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.fantasy_nba.games
+- models.fantasy_nba.player_stats
+
+2022-03-06 20:40:31.298157 (MainThread): 20:40:31  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '02d589d1-99d1-44af-9d53-0c7bfa014ec2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc57ba9460>]}
+2022-03-06 20:40:31.323406 (MainThread): 20:40:31  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '02d589d1-99d1-44af-9d53-0c7bfa014ec2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc57c05970>]}
+2022-03-06 20:40:31.323721 (MainThread): 20:40:31  Found 2 models, 11 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-03-06 20:40:31.325200 (MainThread): 20:40:31  
+2022-03-06 20:40:31.325527 (MainThread): 20:40:31  Acquiring new snowflake connection "master"
+2022-03-06 20:40:31.326430 (ThreadPoolExecutor-0_0): 20:40:31  Acquiring new snowflake connection "list_NBA"
+2022-03-06 20:40:31.339060 (ThreadPoolExecutor-0_0): 20:40:31  Using snowflake connection "list_NBA"
+2022-03-06 20:40:31.339185 (ThreadPoolExecutor-0_0): 20:40:31  On list_NBA: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "connection_name": "list_NBA"} */
+
+    show terse schemas in database NBA
+    limit 10000
+2022-03-06 20:40:31.339285 (ThreadPoolExecutor-0_0): 20:40:31  Opening a new connection, currently in state init
+2022-03-06 20:40:31.457701 (Thread-406): handling poll request
+2022-03-06 20:40:31.458150 (Thread-406): 20:40:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76f8e850>]}
+2022-03-06 20:40:31.459127 (Thread-406): sending response (<Response 4584 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:32.295411 (ThreadPoolExecutor-0_0): 20:40:32  SQL status: SUCCESS 4 in 0.96 seconds
+2022-03-06 20:40:32.297584 (ThreadPoolExecutor-0_0): 20:40:32  On list_NBA: Close
+2022-03-06 20:40:32.530822 (ThreadPoolExecutor-2_0): 20:40:32  Acquiring new snowflake connection "list_NBA_dbt_jvegter"
+2022-03-06 20:40:32.538289 (ThreadPoolExecutor-2_0): 20:40:32  Using snowflake connection "list_NBA_dbt_jvegter"
+2022-03-06 20:40:32.538446 (ThreadPoolExecutor-2_0): 20:40:32  On list_NBA_dbt_jvegter: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "connection_name": "list_NBA_dbt_jvegter"} */
+
+    show terse objects in NBA.dbt_jvegter
+2022-03-06 20:40:32.538550 (ThreadPoolExecutor-2_0): 20:40:32  Opening a new connection, currently in state closed
+2022-03-06 20:40:32.690258 (Thread-407): handling poll request
+2022-03-06 20:40:32.690662 (Thread-407): 20:40:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76e94790>]}
+2022-03-06 20:40:32.691215 (Thread-407): sending response (<Response 2267 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:33.454218 (ThreadPoolExecutor-2_0): 20:40:33  SQL status: SUCCESS 4 in 0.92 seconds
+2022-03-06 20:40:33.455748 (ThreadPoolExecutor-2_0): 20:40:33  On list_NBA_dbt_jvegter: Close
+2022-03-06 20:40:33.682775 (MainThread): 20:40:33  Concurrency: 4 threads (target='default')
+2022-03-06 20:40:33.682964 (MainThread): 20:40:33  
+2022-03-06 20:40:33.685752 (Thread-1): 20:40:33  Began running node model.fantasy_nba.games
+2022-03-06 20:40:33.686084 (Thread-1): 20:40:33  1 of 2 START table model dbt_jvegter.games...................................... [RUN]
+2022-03-06 20:40:33.686370 (Thread-1): 20:40:33  Acquiring new snowflake connection "model.fantasy_nba.games"
+2022-03-06 20:40:33.686480 (Thread-1): 20:40:33  Began compiling node model.fantasy_nba.games
+2022-03-06 20:40:33.686616 (Thread-1): 20:40:33  Compiling model.fantasy_nba.games
+2022-03-06 20:40:33.687539 (Thread-2): 20:40:33  Began running node model.fantasy_nba.player_stats
+2022-03-06 20:40:33.687789 (Thread-2): 20:40:33  2 of 2 START table model dbt_jvegter.player_stats............................... [RUN]
+2022-03-06 20:40:33.688056 (Thread-2): 20:40:33  Acquiring new snowflake connection "model.fantasy_nba.player_stats"
+2022-03-06 20:40:33.688146 (Thread-2): 20:40:33  Began compiling node model.fantasy_nba.player_stats
+2022-03-06 20:40:33.688235 (Thread-2): 20:40:33  Compiling model.fantasy_nba.player_stats
+2022-03-06 20:40:33.690559 (Thread-2): 20:40:33  Writing injected SQL for node "model.fantasy_nba.player_stats"
+2022-03-06 20:40:33.692808 (Thread-1): 20:40:33  Writing injected SQL for node "model.fantasy_nba.games"
+2022-03-06 20:40:33.702763 (Thread-2): 20:40:33  finished collecting timing info
+2022-03-06 20:40:33.702940 (Thread-2): 20:40:33  Began executing node model.fantasy_nba.player_stats
+2022-03-06 20:40:33.708182 (Thread-1): 20:40:33  finished collecting timing info
+2022-03-06 20:40:33.708332 (Thread-1): 20:40:33  Began executing node model.fantasy_nba.games
+2022-03-06 20:40:33.751735 (Thread-2): 20:40:33  Writing runtime SQL for node "model.fantasy_nba.player_stats"
+2022-03-06 20:40:33.757418 (Thread-1): 20:40:33  Writing runtime SQL for node "model.fantasy_nba.games"
+2022-03-06 20:40:33.769691 (Thread-1): 20:40:33  Using snowflake connection "model.fantasy_nba.games"
+2022-03-06 20:40:33.769860 (Thread-1): 20:40:33  On model.fantasy_nba.games: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "model.fantasy_nba.games"} */
+
+
+      create or replace transient table NBA.dbt_jvegter.games  as
+      (
+
+with playedgames as (
+
+    select  "VALUE":c1::DATE AS date
+            ,"VALUE":c3::STRING AS visitor
+            ,"VALUE":c4::INTEGER AS points_visitor
+            ,"VALUE":c5::STRING AS home
+            ,"VALUE":c6::INTEGER AS points_home
+            ,"VALUE":c11::STRING AS abbr_home
+            ,"VALUE":c12::STRING AS abbr_visitor
+            ,"VALUE":c13::STRING AS date_str
+            ,"VALUE":c14::STRING AS stats_url
+    from src_playedgames
+
+)
+
+select 
+    ROW_NUMBER() over (ORDER BY date, visitor, home) as ID
+    , * 
+    from playedgames
+      );
+2022-03-06 20:40:33.769958 (Thread-1): 20:40:33  Opening a new connection, currently in state closed
+2022-03-06 20:40:33.771662 (Thread-2): 20:40:33  Using snowflake connection "model.fantasy_nba.player_stats"
+2022-03-06 20:40:33.771784 (Thread-2): 20:40:33  On model.fantasy_nba.player_stats: /* {"app": "dbt", "dbt_version": "1.0.3", "profile_name": "user", "target_name": "default", "node_id": "model.fantasy_nba.player_stats"} */
+
+
+      create or replace transient table NBA.dbt_jvegter.player_stats  as
+      (
+
+with player_stats as (
+
+select  "VALUE":c1::STRING AS player
+        ,"VALUE":c2::STRING AS mp
+        ,"VALUE":c3::INTEGER AS fgm
+        ,"VALUE":c4::INTEGER AS fga
+        ,"VALUE":c5::FLOAT AS "FG%"
+        ,"VALUE":c6::INTEGER AS "3PTM"
+        ,"VALUE":c7::INTEGER AS "3PA"
+        ,"VALUE":c8::FLOAT AS "3P%"
+        ,"VALUE":c9::INTEGER AS ftm
+        ,"VALUE":c10::INTEGER AS fta
+        ,"VALUE":c11::FLOAT AS "FT%"
+        ,"VALUE":c12::INTEGER AS orb
+        ,"VALUE":c13::INTEGER AS drb
+        ,"VALUE":c14::INTEGER AS reb
+        ,"VALUE":c15::INTEGER AS ast
+        ,"VALUE":c16::INTEGER AS stl
+        ,"VALUE":c17::INTEGER AS blk
+        ,"VALUE":c18::INTEGER AS "TO"
+        ,"VALUE":c19::INTEGER AS pf
+        ,"VALUE":c20::INTEGER AS pts
+        ,"VALUE":c21::INTEGER AS plus_minus
+        ,"VALUE":c22::STRING AS team
+        ,"VALUE":c23::STRING AS opponent
+        ,"VALUE":c24::STRING AS game_location
+        ,"VALUE":c25::DATE AS date
+from src_playerstats
+where mp != 'Did Not Play'
+
+)
+
+select  ROW_NUMBER() over (ORDER BY date, team, player) as id
+        ,player, date
+        ,SPLIT_PART(mp, ':', 0) AS mp
+        ,fgm, fga, "FG%", "3PTM", "3PA", "3P%", ftm
+        ,fta, "FT%", orb, drb, reb, ast, stl, blk, "TO"
+        ,pf, pts, plus_minus, team, opponent,game_location 
+        from player_stats
+      );
+2022-03-06 20:40:33.771870 (Thread-2): 20:40:33  Opening a new connection, currently in state init
+2022-03-06 20:40:33.923627 (Thread-408): handling poll request
+2022-03-06 20:40:33.923967 (Thread-408): 20:40:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76ec5040>]}
+2022-03-06 20:40:33.924821 (Thread-408): sending response (<Response 12924 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:35.158248 (Thread-409): handling poll request
+2022-03-06 20:40:35.158638 (Thread-409): 20:40:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76e82310>]}
+2022-03-06 20:40:35.159120 (Thread-409): sending response (<Response 286 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:35.766942 (Thread-1): 20:40:35  SQL status: SUCCESS 1 in 2.0 seconds
+2022-03-06 20:40:35.776481 (Thread-1): 20:40:35  finished collecting timing info
+2022-03-06 20:40:35.776652 (Thread-1): 20:40:35  On model.fantasy_nba.games: Close
+2022-03-06 20:40:36.036027 (Thread-1): 20:40:36  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '02d589d1-99d1-44af-9d53-0c7bfa014ec2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc5658a220>]}
+2022-03-06 20:40:36.036509 (Thread-1): 20:40:36  1 of 2 OK created table model dbt_jvegter.games................................. [SUCCESS 1 in 2.35s]
+2022-03-06 20:40:36.036646 (Thread-1): 20:40:36  Finished running node model.fantasy_nba.games
+2022-03-06 20:40:36.171376 (Thread-2): 20:40:36  SQL status: SUCCESS 1 in 2.4 seconds
+2022-03-06 20:40:36.172834 (Thread-2): 20:40:36  finished collecting timing info
+2022-03-06 20:40:36.172995 (Thread-2): 20:40:36  On model.fantasy_nba.player_stats: Close
+2022-03-06 20:40:36.398214 (Thread-410): handling poll request
+2022-03-06 20:40:36.398567 (Thread-410): 20:40:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76f89070>]}
+2022-03-06 20:40:36.399159 (Thread-410): sending response (<Response 3780 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:36.406860 (Thread-2): 20:40:36  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '02d589d1-99d1-44af-9d53-0c7bfa014ec2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcc56559a00>]}
+2022-03-06 20:40:36.407293 (Thread-2): 20:40:36  2 of 2 OK created table model dbt_jvegter.player_stats.......................... [SUCCESS 1 in 2.72s]
+2022-03-06 20:40:36.407426 (Thread-2): 20:40:36  Finished running node model.fantasy_nba.player_stats
+2022-03-06 20:40:36.409069 (MainThread): 20:40:36  Acquiring new snowflake connection "master"
+2022-03-06 20:40:36.409410 (MainThread): 20:40:36  
+2022-03-06 20:40:36.409514 (MainThread): 20:40:36  Finished running 2 table models in 5.08s.
+2022-03-06 20:40:36.409600 (MainThread): 20:40:36  Connection 'master' was properly closed.
+2022-03-06 20:40:36.409669 (MainThread): 20:40:36  Connection 'model.fantasy_nba.games' was properly closed.
+2022-03-06 20:40:36.409732 (MainThread): 20:40:36  Connection 'model.fantasy_nba.player_stats' was properly closed.
+2022-03-06 20:40:36.459859 (MainThread): 20:40:36  
+2022-03-06 20:40:36.460203 (MainThread): 20:40:36  Completed successfully
+2022-03-06 20:40:36.460380 (MainThread): 20:40:36  
+2022-03-06 20:40:36.460519 (MainThread): 20:40:36  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+2022-03-06 20:40:37.628893 (Thread-411): handling poll request
+2022-03-06 20:40:37.629280 (Thread-411): 20:40:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76f89f70>]}
+2022-03-06 20:40:37.630604 (Thread-411): sending response (<Response 14752 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:38.170464 (Thread-412): handling status request
+2022-03-06 20:40:38.170974 (Thread-412): 20:40:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76ea8130>]}
+2022-03-06 20:40:38.183007 (Thread-413): handling status request
+2022-03-06 20:40:38.183291 (Thread-413): 20:40:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76e7eaf0>]}
+2022-03-06 20:40:38.202258 (Thread-412): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:40:38.202663 (Thread-413): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
+2022-03-06 20:41:44.129923 (Thread-414): handling status request
+2022-03-06 20:41:44.130810 (Thread-414): 20:41:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '42f4084b-0026-4aed-bd22-bae56a589aa4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f76e7eaf0>]}
+2022-03-06 20:41:44.131300 (Thread-414): sending response (<Response 2034 bytes [200 OK]>) to 10.0.2.77
