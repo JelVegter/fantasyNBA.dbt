@@ -35,7 +35,7 @@ where mp != 'Did Not Play'
 
 select  ROW_NUMBER() over (ORDER BY date, team, player) as id
         ,player, date
-        ,CAST(SPLIT_PART(mp, ':', 0) as INTEGER) AS mp
+        ,CAST(SPLIT_PART(mp, ':', 0) as FLOAT) + (CAST(SPLIT_PART(mp, ':', 1) as FLOAT)/60) AS mp
         ,fgm, fga, "FG%", "3PTM", "3PA", "3P%", ftm
         ,fta, "FT%", orb, drb, reb, ast, stl, blk, "TO"
         ,pf, pts, plus_minus, team, opponent,game_location 
