@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: nba
+    database: raw
+    schema: dbt_jvegter
+    loader: Snowflake
+    
+    quoting:
+      database: false
+      schema: false
+      identifier: false
+      
+    tables:
+      - name: src_games
+      - name: src_player_stats
