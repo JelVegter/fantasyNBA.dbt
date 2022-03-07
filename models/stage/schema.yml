@@ -1,0 +1,53 @@
+
+# version: 2
+
+# models:
+#     - name: games
+#       database: analytics
+#       schema: DBT_JVEGTER
+#       description: "Contains played NBA games"
+#       columns:
+#           - name: id
+#             description: "The primary key for this table"
+#             tests:
+#                 - unique
+#                 - not_null
+#           - name: date
+#             description: "The date the game was played on"
+#             tests:
+#                 - not_null
+#           - name: visitor
+#             description: "The visiting team"
+#             tests:
+#                 - not_null
+#           - name: points_visitor
+#             description: "Amount of points the visiting team scored"
+#             tests:
+#                 - not_null
+#           - name: home
+#             description: "The home team"
+#             tests:
+#                 - not_null
+#           - name: points_home
+#             description: "Amount of points the home team scored"
+#             tests:
+#                 - not_null
+#           - name: abbr_home
+#             description: "The team abbreviation of the home team"
+#             tests:
+#                 - not_null
+#           - name: abbr_visitor
+#             description: "The team abbreviation of the visiting team"
+#             tests:
+#                 - not_null
+
+#           - name: date_str
+#             description: "The date the game was played on in string format"
+#             tests:
+#                 - not_null
+#           - name: stats_url
+#             description: "the URL containing player stats of the game"
+#             tests:
+#                 - not_null
+#     - name: player_stats
+#       description: "Contains stats per player per game"
