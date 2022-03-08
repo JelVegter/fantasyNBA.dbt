@@ -1,6 +1,6 @@
 version: 2
 
-models:
+sources:
   - name: nba
     database: raw
     schema: dbt_jvegter
@@ -12,5 +12,5 @@ models:
       identifier: false
       
     tables:
-      - name: src_games
-      - name: src_player_stats
+      - name: src_playedgames
+      - name: src_playerstats

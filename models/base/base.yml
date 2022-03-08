@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: base_games
+    database: raw
+    schema: dbt_jvegter
+    loader: Snowflake
+    
+    quoting:
+      database: false
+      schema: false
+      identifier: false
+      
+    tables:
+      - name: src_games
