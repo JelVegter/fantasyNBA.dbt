@@ -4163,3 +4163,129 @@ select  ROW_NUMBER() over (ORDER BY date, team, player) as id
 2022-03-07 13:54:32.161909 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
 2022-03-07 13:54:55.484421 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
 2022-03-07 13:54:55.718043 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 14:18:09.734816 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 14:18:10.013616 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 14:18:27.738247 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 14:18:27.963304 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 14:19:44.067201 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 14:25:35.068287 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 14:25:55.603813 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 14:39:56.658659 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 14:42:21.057516 (MainThread): unclosed <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 50172)>
+2022-03-07 14:42:21.061184 (MainThread): unclosed <socket.socket fd=6, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('2a02:a452:da36:1:b999:1479:8894:24c3', 50156, 0, 0)>
+2022-03-07 14:47:38.978314 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:31:44.828601 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:32:12.262090 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:33:03.079407 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:34:24.484801 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:36:15.756839 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:36:45.532935 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:37:16.514943 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:38:12.327529 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:40:04.174518 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:47:15.371590 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:47:16.024496 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-03-07 15:47:16.027068 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-03-07 15:47:32.787858 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:47:33.436411 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-03-07 15:47:33.439023 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-03-07 15:47:33.538801 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 15:48:38.364973 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:48:38.625745 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-03-07 15:48:38.628461 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-03-07 15:48:38.677020 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 15:51:38.493010 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:52:59.838027 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:53:25.594507 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:53:25.909088 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 15:53:45.465726 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:54:07.377373 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:54:07.704750 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 15:54:57.082889 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 15:54:57.381215 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:39:16.379071 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:39:16.775949 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:40:08.994000 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:40:09.305520 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:42:29.572509 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:42:29.870320 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:43:09.591621 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:43:09.885568 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:45:23.461906 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:45:23.853413 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:45:55.027394 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:45:55.369202 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:47:02.553143 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:47:02.901966 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:47:58.566848 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:47:58.868199 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:48:00.392708 (ThreadPoolExecutor-2_0): unclosed <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 52580), raddr=('168.63.27.166', 443)>
+2022-03-07 16:52:12.935635 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:52:13.253954 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:52:50.247276 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:52:50.537600 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 16:53:59.178210 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 16:53:59.476534 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:00:34.085711 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:00:34.403381 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:17:33.962430 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:17:34.284638 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:18:12.288019 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:18:12.606799 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:26:44.584262 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:26:45.153513 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:26:53.493328 (Thread-1): unclosed <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 53778), raddr=('168.63.27.166', 443)>
+2022-03-07 17:30:18.252733 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:30:18.546040 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:30:20.291990 (ThreadPoolExecutor-2_0): unclosed <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 53891), raddr=('168.63.27.166', 443)>
+2022-03-07 17:30:44.772857 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:30:45.058936 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:30:51.045589 (Thread-1): unclosed <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 53913), raddr=('168.63.27.166', 443)>
+2022-03-07 17:35:25.590884 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:35:25.896338 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:42:59.187278 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:42:59.529873 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:44:20.275685 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:44:20.580212 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:46:35.291724 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:46:35.612445 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:47:52.000750 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:47:52.281882 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:52:17.098873 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:52:17.419400 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 17:52:29.113886 (Thread-1): unclosed <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 54338), raddr=('168.63.27.166', 443)>
+2022-03-07 17:56:10.895151 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 17:56:11.203698 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 18:19:11.565281 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 18:19:11.871911 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 18:19:26.857845 (Thread-1): unclosed <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 54879), raddr=('168.63.27.166', 443)>
+2022-03-07 18:20:17.665271 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 18:20:17.953414 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:05:44.991992 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:05:45.279698 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:07:28.654422 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:07:28.950069 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:07:29.796614 (ThreadPoolExecutor-0_0): unclosed <socket.socket fd=10, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 55306), raddr=('168.63.27.166', 443)>
+2022-03-07 19:07:37.569324 (Thread-1): unclosed <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 55313), raddr=('168.63.27.166', 443)>
+2022-03-07 19:10:34.640353 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:10:34.924109 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:31:45.113763 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:31:45.417232 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:34:09.243602 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:34:09.548066 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:34:22.930487 (Thread-1): unclosed <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 55956), raddr=('168.63.27.166', 443)>
+2022-03-07 19:38:08.032705 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:38:08.334022 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:38:17.197988 (Thread-1): unclosed <socket.socket fd=15, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.2.13', 56020), raddr=('168.63.27.166', 443)>
+2022-03-07 19:38:40.640879 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:38:40.917927 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:43:20.791675 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:43:21.101200 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:53:51.508912 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:53:51.803201 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 19:57:32.309875 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 19:57:32.615262 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 20:03:27.434122 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 20:03:27.724883 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-03-07 20:07:28.042083 (MainThread): You have an incompatible version of 'pyarrow' installed (6.0.1), please install a version that adheres to: 'pyarrow<5.1.0,>=5.0.0'
+2022-03-07 20:07:28.340192 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``

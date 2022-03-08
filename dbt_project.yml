@@ -32,7 +32,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  nba:
+  raw:
     # Applies to all files under models/example/
     base_games:
       materialized: table

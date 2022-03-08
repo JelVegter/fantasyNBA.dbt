@@ -3,4 +3,4 @@
 
 select  
     * 
-    from {{ models('nba', 'src_games') }}
+    from {{ source('nba', 'src_playedgames') }}
